@@ -15,7 +15,7 @@ git add .
 git commit -m "Initial commit"
 git push -u origin master
 ```
-
+Configuration initiale:
 ```
 git config --global user.name “[firstname lastname]”
 ```
