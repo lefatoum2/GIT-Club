@@ -9,6 +9,10 @@ git pull origin master
 ```
 
 ```
+
+```
+
+```
 git config --global user.name “[firstname lastname]”
 ```
 
