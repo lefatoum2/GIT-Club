@@ -1,6 +1,7 @@
 # GIT-Club
 GIT cheat sheet
 
+Charger un projet:
 ```
 git init
 git remote add origin git@github.com:<user>/<repo>.git
