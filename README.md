@@ -79,3 +79,12 @@ git merge [branch]
 ```
 git log
 ```
+
+
+```
+touch names.txt
+```
+
+```
+nano names.txt
+```
