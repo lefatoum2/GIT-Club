@@ -48,6 +48,8 @@ git diff -r HEAD data/northern.csv
 ```
 git diff --staged
 ```
+
+## Commit
 ```
 git commit -m “[descriptive message]”
 ```
