@@ -56,6 +56,8 @@ git reset HEAD <file>
 ```
 
 ## Branch
+
+```
 git branch
 ```
 
@@ -65,8 +67,8 @@ git branch [branch-name]
 
 ```
 git checkout
-```
 
+```
 ## Merge
 
 ```
