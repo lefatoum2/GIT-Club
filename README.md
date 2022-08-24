@@ -50,8 +50,12 @@ git diff --staged
 ```
 git commit -m “[descriptive message]”
 ```
+```
+git reset HEAD <file>
 
 ```
+
+## Branch
 git branch
 ```
 
@@ -62,6 +66,8 @@ git branch [branch-name]
 ```
 git checkout
 ```
+
+## Merge
 
 ```
 git merge [branch]
