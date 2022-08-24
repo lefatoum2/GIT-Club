@@ -38,8 +38,11 @@ git add [file]
 ```
 git reset [file]
 ```
+
+## Diff
 ```
 git diff
+git diff data/northern.csv
 ```
 ```
 git diff --staged
