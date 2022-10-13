@@ -129,3 +129,9 @@ git checkout -- .
 git push remote-name branch-name
 git push origin master
 ```
+
+## Log
+
+```
+git log
+```
