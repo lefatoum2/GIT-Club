@@ -170,3 +170,26 @@ git config --list --local
 ```
 git reset
 ```
+
+## Restaurer une vieille version
+```
+git log -2 data/reporting.txt
+ou 
+git log data/reporting.txt
+```
+
+```
+commit ab8883e8a6bfa873d44616a0f356125dbaccd9ea
+Author: Author: Rep Loop <repl@datacamp.com>
+Date:   Thu Oct 19 09:37:48 2017 -0400
+
+    Adding graph to show latest quarterly results.
+
+commit 2242bd761bbeafb9fc82e33aa5dad966adfe5409
+Author: Author: Rep Loop <repl@datacamp.com>
+Date:   Thu Oct 16 09:17:37 2017 -0400
+```
+
+```
+git checkout 2242bd data/reporting.txt
+```
