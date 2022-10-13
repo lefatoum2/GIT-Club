@@ -106,6 +106,7 @@ git remote rm remote-name
 ```
 
 ## Pull
+La commande git pull est utilisée pour faire un fetch du contenu d'un dépôt distant et pour le télécharger, puis pour mettre à jour immédiatement le dépôt local qui correspond à ce contenu.
 
 ```
 git pull thunk latest-analysis
