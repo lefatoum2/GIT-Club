@@ -110,6 +110,7 @@ La commande git pull est utilisée pour faire un fetch du contenu d'un dépôt d
 
 ```
 git pull thunk latest-analysis
+git pull origin master
 ```
 
 ## Checkout
