@@ -154,3 +154,9 @@ pdf
 *.pyc
 backup
 ```
+
+## Clean
+
+```
+git clean backup.log -f
+```
