@@ -91,3 +91,10 @@ touch names.txt
 ```
 nano names.txt
 ```
+
+## Clone
+
+```
+git clone URL
+git clone /existing/project dental
+```
