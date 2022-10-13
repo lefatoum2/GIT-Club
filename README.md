@@ -146,3 +146,11 @@ git status
 git status
 git add sources.txt
 ```
+## .gitignore
+Permet d'ignorer certains fichiers. Les fichiers ignorés sont généralement des artefacts de build et des fichiers générés par la machine qui sont dérivés de votre dépôt source ou qui ne devraient pas être commités. Quelques exemples fréquents.
+
+```
+pdf
+*.pyc
+backup
+```
