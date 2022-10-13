@@ -100,3 +100,13 @@ git clone /existing/project dental
 ```
 ## Remote
 
+```
+git remote add remote-name URL
+git remote rm remote-name
+```
+
+## Pull
+
+```
+git pull thunk latest-analysis
+```
