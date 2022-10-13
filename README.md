@@ -164,3 +164,9 @@ git clean -f backup.log
 ```
 git config --list --local
 ```
+
+## reset
+
+```
+git reset
+```
