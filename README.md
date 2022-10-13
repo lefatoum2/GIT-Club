@@ -135,3 +135,8 @@ git push origin master
 ```
 git log
 ```
+
+## Status
+```
+git status
+```
