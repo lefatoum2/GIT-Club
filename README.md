@@ -116,6 +116,9 @@ git pull thunk latest-analysis
 
 ```
 git checkout main
+```
+```
+git pull origin
 ## Annule les changements
 git checkout -- .
 ```
