@@ -160,3 +160,7 @@ backup
 ```
 git clean -f backup.log 
 ```
+## config
+```
+git config --list --local
+```
