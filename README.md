@@ -122,3 +122,8 @@ git pull origin
 ## Annule les changements
 git checkout -- .
 ```
+
+## Push
+```
+git push remote-name branch-name
+```
