@@ -158,5 +158,5 @@ backup
 ## Clean
 
 ```
-git clean backup.log -f
+git clean -f backup.log 
 ```
