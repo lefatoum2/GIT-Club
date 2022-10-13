@@ -73,7 +73,7 @@ git checkout
 
 ```
 ## Merge
-
+git merge intègre immédiatement la branche principale distante dans la branche principale locale.
 ```
 git merge [branch]
 ```
@@ -110,4 +110,12 @@ La commande git pull est utilisée pour faire un fetch du contenu d'un dépôt d
 
 ```
 git pull thunk latest-analysis
+```
+
+## Checkout
+
+```
+git checkout main
+## Annule les changements
+git checkout -- .
 ```
