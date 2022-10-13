@@ -140,3 +140,9 @@ git log
 ```
 git status
 ```
+## Add
+
+```
+git status
+git add sources.txt
+```
