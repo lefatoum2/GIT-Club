@@ -76,6 +76,8 @@ git checkout
 git merge intègre immédiatement la branche principale distante dans la branche principale locale.
 ```
 git merge [branch]
+
+git merge source destination
 ```
 
 ```
