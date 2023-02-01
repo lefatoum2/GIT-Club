@@ -238,3 +238,7 @@ git rebase --continue
 git push -f origin mabranche
 ```
 ### 8. le rebase est fini.
+
+## Gestion des conflits 
+
+
