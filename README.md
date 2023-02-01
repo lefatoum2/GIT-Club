@@ -210,25 +210,31 @@ Pour cela, il faut utiliser la commande "git rebase".
 Exemple : application d'un "rebase" sur la branche "master" pour la branche "mabranche" : 
 
 ### 1. Il faut d'abord se positionner sur la branche "master" pour la mettre à jour : 
-
+```git
 git checkout master
 git remote update -p
 git pull
+```
 ### 2. après, il faut aller sur la branche "mabranche"
-
+```
 git checkout mabranche
+```
 ### 3. on lance ensuite le rebase sur la branche "master"
-
+```
 git rebase master
+```
 ### 4. le rebase indique une potentielle liste de conflits qu'il faudra résoudre avant d'aller plus loin. PHPStorm propose un excellent outil pour résoudre ces conflits.
 
 ### 5. pour chaque conflit résolu, ajouter le fichier correspondant (il est ajouté automatiquement avec l'outil de résolution de conflits de PHPStorm)
-
+```
 git add nom_du_fichier_qui_posait_problème
+```
 ### 6. continuer le rebase (attention, il n'y a jamais de commit à faire malgré les "git add" à répétition)
-
+```
 git rebase --continue
+```
 ### 7. quand le rebase est fini, il faut pousser la nouvelle branche en forçant la main à Git (car la nouvelle réorganisation des commits ne plaisant pas à Git, sans le -f, il ne voudra pas la faire)
-
+```
 git push -f origin mabranche
+```
 ### 8. le rebase est fini.
