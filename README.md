@@ -2,7 +2,7 @@
 
 ![maxresdefault](https://user-images.githubusercontent.com/73175706/197197990-23bd9bc5-f337-4570-b90c-c529c230a533.jpg)
 
-GIT cheat sheet
+
 
 Charger un projet:
 ```
