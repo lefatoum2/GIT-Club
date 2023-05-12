@@ -48,7 +48,7 @@ git reset [file]
 ```
 git diff
 git diff data/northern.csv
-git diff -r HEAD data/northern.csv
+git diff -r HEAD data/northern.csv  // Montre la différence entre la version courante et la dernière version 
 ```
 ```
 git diff --staged
