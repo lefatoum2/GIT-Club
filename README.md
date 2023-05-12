@@ -6,12 +6,13 @@ GIT cheat sheet
 
 Charger un projet:
 ```
-git init
-git remote add origin git@github.com:<user>/<repo>.git
-git remote -v
-git pull origin master
+git init  // On initialise le projet
+git remote add origin git@github.com:<user>/<repo>.git  // On nomme cette remote origin mais cela peut porter un autre nom
+git remote -v  // Cela nous permets de visualiser les différentes remotes
+git pull origin master  // 
 ```
 
+Création d'un nouveau projet avec un repository déjà créé sur github:
 ```
 git init
 git remote add origin <url>
@@ -19,6 +20,7 @@ git add .
 git commit -m "Initial commit"
 git push -u origin master
 ```
+
 Configuration initiale:
 ```
 git config --global user.name “[firstname lastname]”
@@ -64,27 +66,29 @@ git reset HEAD <file>
 ## Branch
 
 ```
-git branch
+git branch  // Ensemble des branches existantes
 ```
 
 ```
-git branch [branch-name]
+git branch [branch-name]  // Création d'une branche
 ```
 
 ```
-git checkout
+git checkout [branch-name] // On se positionne sur cette branche
 
 ```
 ## Merge
-git merge intègre immédiatement la branche principale distante dans la branche principale locale.
+Merger une branche sur une autre: 
 ```
-git merge [branch]
-
 git merge source destination
 ```
-
+ou 
 ```
-git log
+git checkout main  // On se positionne sur la branche main
+git merge master  // Puis on merge la branche master dans main
+```
+```
+git log  //logging
 ```
 
 ## Touch
@@ -121,7 +125,7 @@ git pull origin master
 ## Checkout
 
 ```
-git checkout main
+git checkout main // Je me positionne sur la branche main
 ```
 ```
 git pull origin
@@ -132,7 +136,7 @@ git checkout -- .
 ## Push
 ```
 git push remote-name branch-name
-git push origin master
+git push origin master // je publie sur la branche master 
 ```
 
 ## Log
@@ -143,13 +147,13 @@ git log
 
 ## Status
 ```
-git status
+git status // Information de l'état de notre rpository
 ```
 ## Add
 
 ```
 git status
-git add sources.txt
+git add sources.txt // Ajoute sources.txt dans le dossier
 ```
 ## .gitignore
 Permet d'ignorer certains fichiers. Les fichiers ignorés sont généralement des artefacts de build et des fichiers générés par la machine qui sont dérivés de votre dépôt source ou qui ne devraient pas être commités. Quelques exemples fréquents.
