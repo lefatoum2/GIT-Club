@@ -91,16 +91,6 @@ git merge master  // Puis on merge la branche master dans main
 git log  //logging
 ```
 
-## Touch
-
-```
-touch names.txt
-```
-
-```
-nano names.txt
-```
-
 ## Clone
 
 ```
